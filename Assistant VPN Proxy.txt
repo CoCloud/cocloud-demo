@@ -4,7 +4,7 @@ Instruction: Before a user apply CoCloud for cross-cloud file collaboration, he 
 
 
 Settings:
-IP Address£º162.243.135.133
-Account£ºvpn
-Password£ºnpv
-Protocol£ºPPTP
+IP Address: 159.203.230.123
+Account: vpn
+Password: npv
+Protocol: PPTP
