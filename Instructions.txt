@@ -1,0 +1,20 @@
+Instructions
+
+1. Projects
+
+Project "ManagementCenter" represents the control server of CoCloud, which is programmed in J2EE framework and managed by Apache Maven. The project can be imported into MyEclipse and be build to a WAR file with the Maven command "clean package". The WAR file then can be deployed into Apache Tomcat configured in a Amazon EC2 server.
+
+The codes of CoCloud cloud proxy are in Project "CommModule", which is programmed based on a communication framework called Apache MINA. The project can be exported into multiple JARs by modifying the value of String "CLOUD_NAME" in File "hht.dss.commmodule.util.ConfigUtil.java". The JAR files corresponds to each cloud proxy, and each of them can be deployed as a background process (by the "nohup" command) in one or several Amazon EC2 servers nearby the corresponding clouds. 
+
+Project "CoCloud_client" is the client APP of CoCloud, programmed by C# WinForm. The executable file "CoCloud.exe" is in the "./Executable File" folder along with a DLL file named "Newtonsoft.Json" (they have to be in the same directory). The "HowToUse" file provides a specific instruction for usage.
+
+
+2. Assistant VPN Proxy
+
+Before a user apply CoCloud for cross-cloud file collaboration, he or she should login the local cloud service firstly. Actually, with the help of CoCloud, cloud users in China need no more login the banned Dropbox and Google Drive to collaborate with the corresponding partners, but only use OneDrive or Baidu PCS instead. Here in order to facilitate testing CoCloud demo by oneself, we provide an assistant VPN proxy for people in blocked regions to login their Dropbox or Google Drive account. Thereafter, a user can apply CoCloud to his several different cloud account concurrently, and collaboratively edit files among each other.
+
+Settings:
+IP Address: 159.203.230.123
+Account: vpn
+Password: npv
+Protocol: PPTP
