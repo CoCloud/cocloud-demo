@@ -11,7 +11,7 @@ Project "CoCloud_client" is the client APP of CoCloud, programmed by C# WinForm.
 
 2. Assistant VPN Proxy
 
-Before a user apply CoCloud for cross-cloud file collaboration, he or she should login the local cloud service firstly. Actually, with the help of CoCloud, cloud users in China need no more login the banned Dropbox and Google Drive to collaborate with the corresponding partners, but only use OneDrive or Baidu PCS instead. Here in order to facilitate testing CoCloud demo by oneself, we provide an assistant VPN proxy for people in blocked regions to login their Dropbox or Google Drive account. Thereafter, a user can apply CoCloud to his several different cloud account concurrently, and collaboratively edit files among each other.
+Before a user apply CoCloud for cross-cloud file collaboration, he or she should login the local cloud service firstly. Actually, with the help of CoCloud, cloud users in China need no more login the blocked Dropbox and Google Drive to collaborate with the corresponding partners, but only use OneDrive or Baidu PCS instead. Here in order to facilitate testing CoCloud demo by oneself, we provide an assistant VPN proxy for people in blocked regions to login their Dropbox or Google Drive account. Thereafter, a user can apply CoCloud to his several different cloud account concurrently, and collaboratively edit files among each other.
 
 Settings:
 IP Address: 159.203.230.123
